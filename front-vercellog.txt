@@ -1,0 +1,99 @@
+[00:58:10.364] Running build in Washington, D.C., USA (East) – iad1
+[00:58:10.558] Cloning github.com/HARSH00M/Blogging-Site (Branch: master, Commit: de30c4f)
+[00:58:11.168] Cloning completed: 602.887ms
+[00:58:17.380] Restored build cache
+[00:58:17.619] Running "vercel build"
+[00:58:19.450] Vercel CLI 37.1.2
+[00:58:21.240] Installing dependencies...
+[00:58:23.028] 
+[00:58:23.028] up to date in 1s
+[00:58:23.029] 
+[00:58:23.029] 136 packages are looking for funding
+[00:58:23.029]   run `npm fund` for details
+[00:58:23.045] Running "npm run build"
+[00:58:23.181] 
+[00:58:23.181] > my-app@0.1.0 build
+[00:58:23.181] > next build
+[00:58:23.182] 
+[00:58:23.819] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[00:58:23.820] This information is used to shape Next.js' roadmap and prioritize features.
+[00:58:23.820] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[00:58:23.820] https://nextjs.org/telemetry
+[00:58:23.820] 
+[00:58:23.885]   ▲ Next.js 14.2.5
+[00:58:23.886] 
+[00:58:23.958]    Creating an optimized production build ...
+[00:58:41.002]  ✓ Compiled successfully
+[00:58:41.003]    Linting and checking validity of types ...
+[00:58:44.657] 
+[00:58:44.658] ./src/app/(auth)/register/page.tsx
+[00:58:44.658] 98:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.658] 98:13  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+[00:58:44.658] 
+[00:58:44.662] ./src/app/(main)/home/page.tsx
+[00:58:44.662] 14:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.663] 
+[00:58:44.663] ./src/app/(main)/profile/page.tsx
+[00:58:44.663] 44:8  Warning: React Hook useEffect has a missing dependency: 'userId'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+[00:58:44.663] 53:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.663] 
+[00:58:44.663] ./src/components/blog/card.tsx
+[00:58:44.664] 13:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.664] 
+[00:58:44.664] ./src/components/blog/sideBarCard.tsx
+[00:58:44.664] 9:33  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.664] 
+[00:58:44.664] ./src/components/profile/AuthorCard.tsx
+[00:58:44.664] 11:5  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.664] 
+[00:58:44.665] ./src/components/profile/avatar.tsx
+[00:58:44.665] 12:5  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[00:58:44.665] 
+[00:58:44.665] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[00:58:46.064]    Collecting page data ...
+[00:58:47.330]    Generating static pages (0/13) ...
+[00:58:47.834]    Generating static pages (3/13) 
+[00:58:47.867] from the context :  null
+[00:58:47.963] from the context :  null
+[00:58:48.004] from the context :  null
+[00:58:48.016]    Generating static pages (6/13) 
+[00:58:48.050] from the context :  null
+[00:58:48.073] from the context :  null
+[00:58:48.742] from the context :  null
+[00:58:48.744]    Generating static pages (9/13) 
+[00:58:48.823] from the context :  null
+[00:58:49.623] from the context :  null
+[00:58:49.647] from the context :  null
+[00:58:49.666] from the context :  null
+[00:58:49.698]  ✓ Generating static pages (13/13)
+[00:58:50.448]    Finalizing page optimization ...
+[00:58:50.449]    Collecting build traces ...
+[00:58:53.911] 
+[00:58:53.925] Route (app)                              Size     First Load JS
+[00:58:53.926] ┌ ○ /                                    1.78 kB         100 kB
+[00:58:53.926] ├ ○ /_not-found                          871 B          87.9 kB
+[00:58:53.926] ├ ƒ /authors                             145 B          87.2 kB
+[00:58:53.926] ├ ○ /blogs                               145 B          87.2 kB
+[00:58:53.926] ├ ○ /create                              2.12 kB        93.9 kB
+[00:58:53.926] ├ ○ /home                                173 B            94 kB
+[00:58:53.926] ├ ○ /login                               3.98 kB         103 kB
+[00:58:53.926] ├ ○ /profile                             1.55 kB        88.6 kB
+[00:58:53.926] ├ ○ /register                            1.99 kB         101 kB
+[00:58:53.926] └ ○ /update                              145 B          87.2 kB
+[00:58:53.926] + First Load JS shared by all            87.1 kB
+[00:58:53.926]   ├ chunks/23-d8e2d9a868e86dc6.js        31.5 kB
+[00:58:53.927]   ├ chunks/fd9d1056-259a9180274eab8a.js  53.6 kB
+[00:58:53.927]   └ other shared chunks (total)          1.89 kB
+[00:58:53.927] 
+[00:58:53.927] 
+[00:58:53.927] ƒ Middleware                             27.1 kB
+[00:58:53.927] 
+[00:58:53.927] ○  (Static)   prerendered as static content
+[00:58:53.927] ƒ  (Dynamic)  server-rendered on demand
+[00:58:53.927] 
+[00:58:53.965] Build Completed in /vercel/output [33s]
+[00:58:54.057] Deploying outputs...
+[00:58:55.369] 
+[00:58:55.628] Deployment completed
+[00:59:05.397] Uploading build cache [109.41 MB]...
+[00:59:07.337] Build cache uploaded: 1.940s

@@ -20,7 +20,7 @@ const BlogPage = async () => {
 
     return (
         <div className='flex justify-center gap-11 flex-wrap py-10 md:p-20'>
-            {allBlogs.map((blog : IBlogs, idx) => <Card key={idx} location={blog.imagePath} title={blog.title} paragraph={blog.paragraph}/>)}
+            {allBlogs?.map((blog : IBlogs, idx) => <Card key={idx} location={blog.imagePath} title={blog.title} paragraph={blog.paragraph}/>)}
         </div>
     );
 };

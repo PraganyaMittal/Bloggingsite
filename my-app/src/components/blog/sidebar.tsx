@@ -16,7 +16,7 @@ interface IAuthors {
 // Fetch the data inside the page component
 const SideBar = async () => {
     // Fetching data from jsonplaceholder
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/user/authors`, { next: { revalidate: 3600 } });
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/user/authors`, { cache : 'no-store' });
     // const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog/all`, { next: { revalidate: 3600 } });
     const authors = await res.json();
 

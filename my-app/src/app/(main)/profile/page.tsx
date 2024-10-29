@@ -3,6 +3,7 @@ import { UserContext } from '@/context/userContext';
 import React, { useContext, useEffect, useState } from 'react'
 import Card from '@/components/blog/card';
 import Image from 'next/image';
+import { redirect } from 'next/navigation';
 
 interface IBlogs {
     imagePath: string,
@@ -14,6 +15,8 @@ export default function Profile() {
 
     const [allBlogs, setBlogs] = useState<IBlogs[] | null>(null)
     const context = useContext(UserContext)
+    if(!context?.user)
+        return redirect('/')
     const name = context?.user?.name;
     const location = context?.user?.profileImage;
     const email = context?.user?.email;

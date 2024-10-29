@@ -7,5 +7,5 @@ exports.default = default_1;
 const mongoose_1 = __importDefault(require("mongoose"));
 function default_1() {
     console.log(process.env.MONGOOSEURI);
-    mongoose_1.default.connect(process.env.MONGOOSEURI, {}).then(() => console.log("database connected successfully")).catch(error => new Error("Database not connected"));
+    mongoose_1.default.connect('mongodb://localhost:27017', {}).then(() => console.log("database connected successfully")).catch(error => new Error("Database not connected"));
 }

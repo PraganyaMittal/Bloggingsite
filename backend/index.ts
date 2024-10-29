@@ -17,7 +17,7 @@ app.use(cors({
 
 
 
-app.use('/uploads', express.static('./uploads'))
+app.use('/uploads', express.static('./uploads'));
 app.use(cookieParser())
 dbConnect();
 

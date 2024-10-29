@@ -16,7 +16,7 @@ const express_1 = require("express");
 const multer_1 = require("../config/multer");
 const router = (0, express_1.Router)();
 const fs_1 = __importDefault(require("fs"));
-const blog_1 = __importDefault(require("../model/Blog"));
+const blog_1 = __importDefault(require("../model/blog"));
 const authorization_1 = require("../middleware/authorization");
 router.get('/all', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {

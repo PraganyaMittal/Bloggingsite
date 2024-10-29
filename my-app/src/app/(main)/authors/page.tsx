@@ -1,4 +1,5 @@
 // app/albums/page.tsx
+'use client'
 import React from 'react';
 
 import Card from '@/components/blog/card';
